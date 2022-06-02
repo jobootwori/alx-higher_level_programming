@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
    import sys
-   1 = len(sys.argv) - 1
+   i = len(sys.argv) - i
 
    if i == 0:
        print("{} arguments.".format(i))
@@ -10,9 +10,9 @@ if __name__ == "__main__":
    else:
        print("{} arguments:".format(i))
 
-    if i >= 1:
-        i = 0
-        for arg in sys.argv:
-            if i != 0:
-                print("{}: {}".format(i, arg))
-            i += 1
+   if i >= 1:
+       i = 0
+       for arg in sys.argv:
+           if i != 0:
+               print("{}: {}".format(i, arg))
+           i += 1
