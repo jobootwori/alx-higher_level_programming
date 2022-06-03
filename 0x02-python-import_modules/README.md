@@ -1,41 +1,58 @@
 # 0x02. Python - import & modules
- _Projects done during **Full Stack Software Engineering studies** at **African Leadership University School**. The aim of the projects is to learn about `functions, modules and strings` in `Python language.`_
+
+## Description
+What you should learn from this project:
+
+Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+How to import functions from another file
+How to use imported functions
+How to create a module
+How to use the built-in function dir()
+How to prevent code in your script from being executed when imported
+How to use command line arguments with your Python programs
+
+---
+
+### [0. Import a simple function from a simple file](./0-add.py)
+* Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
 
 
-```sh
-#Trying Bash duh!
-```
-
-# Technologies
-- All your files will be interpreted/compiled on `Ubuntu 20.04 LTS` using `python3 (version 3.8.5)`
-- Your code should use the `pycodestyle (version 2.8.*)`
-
-# Projects 
-The following are the ALX School projects.
-
-| File Name | Description |
-| ------ | ------ |
-| [0-strcat.c]() | `Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
-
-    You have to use print function with string format to display integers
-    You have to assign:
-        the value 1 to a variable called a
-        the value 2 to a variable called b
-        and use those two variables as arguments when calling the functions add and print
-    a and b must be defined in 2 different lines: a = 1 and another b = 2
-    Your program should print: <a value> + <b value> = <add(a, b) value> followed with a new line
-    You can only use the word add_0 once in your code
-    You are not allowed to use * for importing or __import__
-    Your code should not be executed when imported - by using __import__, like the example below
-` |
-| [1-strncat.c]() | `a function that concatenates two strings` |
-| [2-strncpy.c]() | `a function that copies a string` |
-| [3-strcmp.c]() | `a function that compares two strings` |
-| [4-rev_array.c]() | `a function that reverses the content of an array of integers` |
-| [5-string_toupper.c]() | `a function that changes all lowercase letters of a string to uppercase` |
-| [6-cap_string.c]() | `a function that capitalizes all words of a string` |
-| [7-leet.c]() | `a function that encodes a string into` `1337` |
-| [100-rot13.c]() | `a function that encodes a string using` `rot13` |
-| [101-print_number.c]() | `a function that prints an integer` |
+### [1. My first toolbox!](./1-calculation.py)
+* Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
 
 
+### [2. How to make a script dynamic!](./2-args.py)
+* Write a program that prints the number of and the list of its arguments.
+
+
+### [3. Infinite addition](./3-infinite_add.py)
+* Write a program that prints the result of the addition of all arguments
+
+
+### [4. Who are you?](./4-hidden_discovery.py)
+* Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
+
+
+### [5. Everything can be imported](./5-variable_load.py)
+* Write a program that imports the variable a from the file variable_load_5.py and prints its value.
+
+
+### [6. Build my own calculator!](./100-my_calculator.py)
+* Write a program that imports all functions from the file calculator_1.py and handles basics operations.
+
+
+### [7. Easy print](./101-easy_print.py)
+* Write a program that prints #pythoniscool, followed by a new line, in the standard output.
+
+
+### [8. ByteCode -> Python #3](./102-magic_calculation.py)
+* Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
+
+### [9. Fast alphabet](./103-fast_alphabet.py)
+* Write a program that prints the alphabet in uppercase, followed by a new line.
+
+---
+
+## Author
+* **Joshua Otwori** - [jobootwori](https://github.com/jobootwori)
