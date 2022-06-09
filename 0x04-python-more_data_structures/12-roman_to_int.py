@@ -8,17 +8,7 @@ def roman_to_int(roman_string):
     if not roman_string.isupper():
         return 0
      # Dictionary for roman numerals
-     roman_dict = {
-             "I": 1,
-             "IV": 4,
-             "V": 5,
-             "IX": 9,
-             "X": 10,
-             "L": 50,
-             "C": 100,
-             "D": 500,
-             "M": 1000
-             }
+    roman_dict = {"I": 1, "IV": 4, "V": 5, "IX": 9, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
     result = 0
     temp = list(roman_string)
@@ -38,7 +28,7 @@ def roman_to_int(roman_string):
                 pass
             idx += 1
             # Search in dict for correct numbers and add
-    for k, v in r_dict.items():
+    for k, v in roman_dict.items():
         for index in temp:
             if index == k:
                 result += v
