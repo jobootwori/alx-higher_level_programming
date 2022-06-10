@@ -1,62 +1,89 @@
-# 0x16. C - Doubly linked lists
+# 0x04. Python - More Data Structures: Set, Dictionary
 
 ## Description
 What you should learn from this project:
 
-What is a doubly linked list
-How to use doubly linked lists
-Start to look for the right source of information without too much help
+Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+What are set and how to use them
+What are the most common methods of set and how to use them
+When to use sets versus lists
+How to iterate into a set
+What are dictionary and how to use them
+When to use dictionaries versus lists or sets
+What is a key in a dictionary
+How to iterate into a dictionary
+What is a lambda function
+What is map, reduce and map functions
 
 ---
 
-### [0. Print list](./0-print_dlistint.c)
-* Write a function that prints all the elements of a dlistint_t list.
+### [0. Squared simple](./0-square_matrix_simple.py)
+* Write a function that computes the square value of all integers of a matrix.
 
 
-### [1. List length](./1-dlistint_len.c)
-* Write a function that returns the number of elements in a linked dlistint_t list.
+### [1. Search and replace](./1-search_replace.py)
+* Write a function that replaces all occurrences of an element by another in a new list.
 
 
-### [2. Add node](./2-add_dnodeint.c)
-* Write a function that adds a new node at the beginning of a dlistint_t list.
+### [2. Unique addition](./2-uniq_add.py)
+* Write a function that adds all unique integers in a list (only once for each integer).
 
 
-### [3. Add node at the end](./3-add_dnodeint_end.c)
-* Write a function that adds a new node at the end of a dlistint_t list.
+### [3. Present in both](./3-common_elements.py)
+* Write a function that returns a set of common elements in two sets.
 
 
-### [4. Free list](./4-free_dlistint.c)
-* Write a function that free a dlistint_t list.
+### [4. Only differents](./4-only_diff_elements.py)
+* Write a function that returns a set of all elements present in only one set.
 
 
-### [5. Get node at index](./5-get_dnodeint.c)
-* Write a function that returns the nth node of a dlistint_t linked list.
+### [5. Number of keys](./5-number_keys.py)
+* Write a function that returns the number of keys in a dictionary.
 
 
-### [6. Sum list](./6-sum_dlistint.c)
-* Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
+### [6. Print sorted dictionary](./6-print_sorted_dictionary.py)
+* Write a function that prints a dictionary by ordered keys.
 
 
-### [7. Insert at index](./7-insert_dnodeint.c)
-* Write a function that inserts a new node at a given position.
+### [7. Update dictionary](./7-update_dictionary.py)
+* Write a function that replaces or adds key/value in a dictionary.
 
 
-### [8. Delete at index](./8-delete_dnodeint.c)
-* Write a function that deletes the node at index index of a dlistint_t linked list.
+### [8. Simple delete by key](./8-simple_delete.py)
+* Write a function that deletes a key in a dictionary.
 
 
-### [9. Crackme4](./100-password)
-* Find the password for crackme4.
+### [9. Multiply by 2](./9-multiply_by_2.py)
+* Write a function that returns a new dictionary with all values multiplied by 2
 
 
-### [10. Palindromes](./102-result)
-* A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+### [10. Best score](./10-best_score.py)
+* Write a function that returns a key with the biggest integer value.
 
 
-### [11. crackme5](./103-keygen.c)
-* Write a keygen for crackme5.
+### [11. Multiply by using map](./11-mutiply_list_map.py)
+* Write a function that returns a list with all values multiplied by a number without using any loops.
+
+
+### [12. Roman to Integer](./12-roman_to_int.py)
+* Technical interview preparation: 
+
+
+### [13. Weighted average!](./100-weight_average.py)
+* Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
+
+
+### [14. Squared by using map](./101-square_matrix_map.py)
+* Write a function that computes the square value of all integers of a matrix using map
+
+
+### [15. Delete by value](./102-complex_delete.py)
+* Write a function that deletes keys with a specific value in a dictionary.
+
+
+### [16. CPython #1: PyBytesObject](./103-python.c)
+* Create two C functions that print some basic info about Python lists and Python bytes objects.
 
 ---
-
 ## Author
 * **Joshua Otwori** - [jobootwori](https://github.com/jobootwori)
