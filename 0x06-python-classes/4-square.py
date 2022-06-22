@@ -28,8 +28,8 @@ class Square:
         """
         return self.__size
 
-     @size.setter
-     def size(self, value):
+    @size.setter
+    def size(self, value):
         """ Method to set the size value of the square object
         """
         if not isinstance(value, int):
