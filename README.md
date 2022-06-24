@@ -1,31 +1,45 @@
-# 0x07. C - Even more pointers, arrays and strings
-_Projects done during **Full Stack Software Engineering studies** at **African Leadership University School**. The aim of the projects is to learn about `pointers, arrays and strings` in `C language.`_
+# ALx School High-level Programming :computer:
 
+## Description
+Alx's curriculum for high-level programming. These projects are meant to help us learn how to use and apply the basic fundamental concepts from [low-level programming](./https://github.com/jobootwori/alx-low_level_programming) on a different programming language.
 
-```sh
-#Trying Bash duh!
-```
+---
 
-# Technologies
-- C files are compiled using `gcc (Debian 10.2.1-6) 10.2.1 20210110`
-- C files are written according to the `C90` standard
-- Tested on `Ubuntu 20.04 LTS`
-- Uses [betty](https://github.com/holbertonschool/Betty) coding style
+## Table of Contents :open_file_folder:
 
-# Projects 
-The following are the ALX School projects.
+### [0x00. Python - Hello, World](./0x00-python-hello_world)
 
-| File Name | Description |
-| ------ | ------ |
-| [0-strcat.c]() | `a function that concatenates two strings` |
-| [1-strncat.c]() | `a function that concatenates two strings` |
-| [2-strncpy.c]() | `a function that copies a string` |
-| [3-strcmp.c]() | `a function that compares two strings` |
-| [4-rev_array.c]() | `a function that reverses the content of an array of integers` |
-| [5-string_toupper.c]() | `a function that changes all lowercase letters of a string to uppercase` |
-| [6-cap_string.c]() | `a function that capitalizes all words of a string` |
-| [7-leet.c]() | `a function that encodes a string into` `1337` |
-| [100-rot13.c]() | `a function that encodes a string using` `rot13` |
-| [101-print_number.c]() | `a function that prints an integer` |
+### [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
 
+### [0x02. Python - import & modules](./0x02-python-import_modules)
 
+### [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+
+### [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
+
+### [0x05. Python - Exceptions](./0x05-python-exceptions)
+
+### [0x06. Python - Classes and Objects](./0x06-python-classes)
+
+### [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+
+### [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+
+### [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+
+### [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+
+### [0x0B. Python - Input/Output](./0x0B-python-input_output)
+
+### [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+
+### [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+
+### [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+
+### [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+
+---
+
+## Author
+**** Joshua Otwori*** - [jobootwori](https://github.com/jobootwori)
