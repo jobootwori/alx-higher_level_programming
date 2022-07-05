@@ -12,5 +12,5 @@ def number_of_lines(filename=""):
             line = f.readline()
             if not line:
                 break
-            n0_lines += 1
+            no_lines += 1
         return no_lines
