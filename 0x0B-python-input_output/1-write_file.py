@@ -2,6 +2,7 @@
 """number_of_lines
 """
 
+
 def number_of_lines(filename=""):
     """Takes in str filename to read the number of lines
     """
